@@ -22,5 +22,27 @@ const getCountry = country => {
 
     `
 }
+// option 1
+// const getCountry = country => {
+//     const {name,flags} = country;
+//     return `
+//           <div class = "country">
+//               <h2>${name.common}</h2>
+//               <img src = "${flags.png}">
+//           </div>    
+
+//     `
+// }
+
+// option 2
+// const getCountry = ({name,flags} )=> {
+//     return `
+//           <div class = "country">
+//               <h2>${name.common}</h2>
+//               <img src = "${flags.png}">
+//           </div>    
+
+//     `
+// }
 // loadData()
 countrys()
